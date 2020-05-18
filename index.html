@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="page.css">    
+</head>
+
+
+
+<h1 id="title"> RESIDENT EVIL SURVEY FORM</h1>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<p id="description"> <em>Thank You For Taking The Time To Answer This Survey</em></p>
+
+<div id="body">
+
+
+<form id="survey-form">
+<label id="name-label" for="name"><p>Name:</p></label>  
+<input type="text" id="name" placeholder="Enter Your Name" required>
+
+
+<label id="email-label" for="email"><p>Email:</p></label>
+<input type="email" id="email" placeholder="Enter Your Email" required>
+
+
+<label id="number-label" for="number"><p>Age:</p></label>
+<input type="number" id="number" placeholder="Enter Your Age" min="18" max="60" required>
+
+
+<p>Which Classic Resident Evil Game Do You Enjoy The Most?</p>
+<select id="dropdown">
+<option value="default">None</option>
+<option value="Resident Evil 1">Resident Evil 1</option>
+<option value="Resident Evil 2">Resident Evil 2</option>
+<option value="Resident Evil 3">Resident Evil 3</option>
+<option value="Resident Evil Code Veronica">Resident Evil Code Veronica</option>
+<option value="Resident Evil 0">Resident Evil 0</option>
+</select>
+
+
+<p>Who Is Your Favourite Main Character?</p>
+<input type="radio" name="character" id="favourite-character" value="1">Chris Redfield</input>
+<br>
+<input type="radio" name="character" id="favourite-character" value="2">Jill Valentine</input>
+<br>
+<input type="radio" name="character" id="favourite-character" value="3">Leon S. Kennedy</input>
+<br>
+<input type="radio" name="character" id="favourite-character" value="4">Claire Redfield</input>
+<br>
+<input type="radio" name="character" id="favourite-character" value="5">Rebbeca Chambers</input>
+<br>
+<input type="radio" name="character" id="favourite-character" value="6">Billy Cohen</input>
+
+
+<p>What Gameplay Elements Would You Like To See More Of In Future Instalments?</p>
+<input type="checkbox" name="game element" id="game-element" Value="1">Action</input>
+<br>
+<input type="checkbox" name="game element" id="game-element" Value="2">Horror</input>
+<br>
+<input type="checkbox" name="game element" id="game-element" Value="3">Puzzle Solving</input>
+<br>
+<input type="checkbox" name="game element" id="game-element" Value="4">Multiplayer</input>
+<br>
+<input type="checkbox" name="game element" id="game-element" Value="5">Exploration</input>
+<br>
+
+
+
+<p>Additional Comments</p>
+
+<textarea id="comment" rows="5" cols="50">Write Your Comment Here</textarea>
+
+<input id="submit" type="submit"></input>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
